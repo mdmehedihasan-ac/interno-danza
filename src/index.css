@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Jost', Inter, system-ui, sans-serif;
+    background-color: #fafaf9;
+    color: #1c1917;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  /* Marquee animation for brand scroll */
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 35s linear infinite;
+  }
+
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+}
