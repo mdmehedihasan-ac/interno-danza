@@ -21,10 +21,6 @@
 }
 
 @layer utilities {
-  .font-serif {
-    font-family: 'Playfair Display', Georgia, serif;
-  }
-
   /* Marquee animation for brand scroll */
   @keyframes marquee {
     0% { transform: translateX(0); }

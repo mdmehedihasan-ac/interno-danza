@@ -10,7 +10,7 @@ export default function HeroLuxury() {
 
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center scale-105 blur-[1.5px] transition-transform duration-[8000ms]"
+        className="absolute inset-0 bg-cover bg-center scale-105 blur-md transition-transform duration-[8000ms]"
         style={{ backgroundImage: `url('${HERO_BG}')` }}
       />
 
@@ -31,7 +31,7 @@ export default function HeroLuxury() {
         <h1 className="font-serif text-5xl md:text-6xl lg:text-[72px] leading-[1.15] mb-8 tracking-tight">
           L'Arte del Movimento,
           <br />
-          <em className="font-serif font-normal italic">su Misura per Te.</em>
+          <em className="font-serif font-normal italic text-[#c3197a]">su Misura per Te.</em>
         </h1>
 
         <div className="w-16 h-px bg-white/30 mx-auto mb-8" />
@@ -44,7 +44,7 @@ export default function HeroLuxury() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
             to="/collections"
-            className="inline-block border border-white/80 text-white text-[11px] tracking-[0.28em] uppercase px-12 py-4 hover:bg-white hover:text-[#c3197a] transition-all duration-400 font-light"
+            className="inline-block border border-white/80 text-white text-[11px] tracking-[0.28em] uppercase px-12 py-4 hover:bg-white hover:text-[#c3197a] transition-all duration-300 font-light"
           >
             Esplora le Collezioni
           </Link>

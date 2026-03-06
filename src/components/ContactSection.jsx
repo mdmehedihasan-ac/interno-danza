@@ -15,21 +15,18 @@ const leadActions = [
     id: 'fitting',
     title: 'Prenota Fitting',
     subtitle: 'Pointe shoe fitting in negozio',
-    icon: 'PF',
     message: 'Salve, vorrei prenotare una seduta di Pointe Shoe Fitting in negozio.',
   },
   {
     id: 'articoli',
     title: 'Informazioni Articoli',
     subtitle: 'Disponibilita e varianti prodotto',
-    icon: 'IA',
     message: 'Ciao, vorrei ricevere informazioni sugli articoli disponibili in negozio.',
   },
   {
     id: 'sposa',
     title: 'Scarpe Sposa/Ballo',
     subtitle: 'Appuntamento su misura',
-    icon: 'SB',
     message: 'Salve, vorrei prendere appuntamento per la realizzazione di scarpe su misura (Interno Sposa/Ballo).',
   },
 ]
